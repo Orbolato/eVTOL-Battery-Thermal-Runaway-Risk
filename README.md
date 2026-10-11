@@ -21,6 +21,7 @@ This is a **post-publication public code release**. The IEEE article stated that
 .
 ├── run_all.py                 # Single entry point for the complete analysis
 ├── requirements.txt           # Exact Python package versions used
+├── CITATION.cff               # Machine-readable citation metadata
 ├── src/
 │   ├── distributions.py       # Seven input-variable samplers
 │   ├── risk_functions.py      # Risk-amplification functions and ablations
@@ -33,11 +34,11 @@ This is a **post-publication public code release**. The IEEE article stated that
 │   └── plotting.py            # Figure generation
 ├── tests/                     # Automated verification tests
 └── outputs/
-    ├── tables/                # Reference numeric outputs
-    ├── figures/               # Reference figures (PDF)
-    ├── logs/                  # Reference run logs
+    ├── tables/                # Selected reference numeric outputs
     └── result_manifest.csv    # Maps headline results to pipeline outputs
 ```
+
+Running the full analysis also creates `outputs/figures/`, `outputs/logs/`, and the full set of generated numeric outputs, including the SOC × C-rate heatmap table.
 
 ## Environment
 
@@ -83,11 +84,13 @@ python -m pytest tests/ -q
 
 The public package was checked before release and the supplied test suite passed **22/22 tests**.
 
+A GitHub Actions workflow runs the same test suite automatically on pushes and pull requests.
+
 ## Reference outputs
 
-The checked-in `outputs/` directory contains the tables, figures, logs, and result manifest produced by the supplied analysis package. These files provide reference values against which a new run can be compared.
+Selected reference tables and the result manifest are checked into `outputs/` so a new run can be compared with the values generated for the published analysis. The complete pipeline regenerates the full output set, including figures, logs, and the larger heatmap table.
 
-Key output groups include:
+The analysis covers:
 
 - baseline risk-index summary;
 - structural-ablation matrix;
@@ -129,6 +132,8 @@ If you use this repository or its implementation in academic work, please cite t
   doi     = {10.1109/ACCESS.2026.3725575}
 }
 ```
+
+GitHub also recognizes the repository's `CITATION.cff` file and can surface the preferred article citation directly in the repository interface.
 
 ## License
 
