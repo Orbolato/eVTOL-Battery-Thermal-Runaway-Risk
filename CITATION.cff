@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the associated IEEE Access article."
+title: "eVTOL Battery Thermal-Runaway Risk Model"
+type: software
+authors:
+  - family-names: Furlan
+    given-names: Rodrigo Mollo
+  - family-names: Vieira
+    given-names: Gabriel Luiz Goulart Rufino
+  - family-names: Carvalho
+    given-names: Lucas Orbolato
+    orcid: "https://orcid.org/0000-0002-8402-5832"
+  - family-names: Pamplona
+    given-names: Daniel Alberto
+  - family-names: Guterres
+    given-names: Marcelo Xavier
+repository-code: "https://github.com/Orbolato/eVTOL-Battery-Thermal-Runaway-Risk"
+preferred-citation:
+  type: article
+  title: "Literature-Informed Stochastic Scenario Analysis of Thermal-Runaway Risk During eVTOL Battery Fast Charging"
+  authors:
+    - family-names: Furlan
+      given-names: Rodrigo Mollo
+    - family-names: Vieira
+      given-names: Gabriel Luiz Goulart Rufino
+    - family-names: Carvalho
+      given-names: Lucas Orbolato
+      orcid: "https://orcid.org/0000-0002-8402-5832"
+    - family-names: Pamplona
+      given-names: Daniel Alberto
+    - family-names: Guterres
+      given-names: Marcelo Xavier
+  journal: "IEEE Access"
+  volume: "14"
+  start: 129532
+  end: 129543
+  year: 2026
+  doi: "10.1109/ACCESS.2026.3725575"
