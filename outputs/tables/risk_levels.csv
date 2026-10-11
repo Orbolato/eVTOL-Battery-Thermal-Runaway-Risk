@@ -1,0 +1,5 @@
+risk_level,fraction
+Band I (<1e-9),0.0
+Band II (1e-9 to Pbase),0.0
+Band III (Pbase to 1e-6),0.9999965
+Band IV (>=1e-6),3.5e-06

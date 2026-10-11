@@ -1,0 +1,3 @@
+quantity,value,output_file,produced_by
+baseline_mean_P_TR,1.3620242072209382e-07,baseline_summary.csv,run_all.py:1
+fold_vs_assumed_baseline,16.21457389548736,baseline_summary.csv,run_all.py:1

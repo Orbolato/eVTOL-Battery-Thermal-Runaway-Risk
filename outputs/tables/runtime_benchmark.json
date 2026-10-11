@@ -1,0 +1,19 @@
+{
+  "hardware": "Intel Core i7-8565U CPU @ 1.80GHz, 4 cores/8 threads, 7.88 GB RAM",
+  "os": "Windows-11-10.0.26200-SP0",
+  "python": "3.13.9 | packaged by Anaconda, Inc. | (main, Oct 21 2025, 19:09:58) [MSC v.1929 64 bit (AMD64)]",
+  "numpy": "2.3.5",
+  "note": "single-threaded NumPy vectorized simulation; sampling + risk-function evaluation only, excludes figure generation and disk I/O",
+  "N": 10000000,
+  "n_runs": 5,
+  "times_s": [
+    18.390349500012235,
+    17.394313099997817,
+    17.946342399998684,
+    17.689497400002438,
+    17.466962400008924
+  ],
+  "median_s": 17.689497400002438,
+  "min_s": 17.394313099997817,
+  "max_s": 18.390349500012235
+}
